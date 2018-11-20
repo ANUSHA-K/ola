@@ -10,6 +10,5 @@ if [ $ENVIRNOMENT = "QA" ]; then
   echo " starting tomcat server $i "
   sshpass -p "1234" ssh anusha@$i "JAVA_HOME=/home/anusha/softwares/jdk1.8.0_181 " "/home/anusha/softwares/apache-tomcat-8.5.34/bin/startup.sh"
   done
-  
-   echo " deploy success "
+  echo " deploy success "
 fi
