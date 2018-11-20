@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 ENVIRNOMENT=$1
 if [ $ENVIRNOMENT = "QA" ]; then
  for i in 'cat ip.txt'
