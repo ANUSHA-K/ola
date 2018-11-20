@@ -1,7 +1,7 @@
 #!/bin/bash
 ENVIRNOMENT=$1
 if [ $ENVIRNOMENT = "QA" ]; then
- for i in 'cat ip.txt'
+ for i in `cat ip.txt`
   do
    echo "deploy war file into $i "
   sleep 3
